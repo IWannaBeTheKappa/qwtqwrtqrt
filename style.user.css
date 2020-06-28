@@ -354,6 +354,7 @@ html {
 .write_suggestion,
 .yap-button--blue,
 .yap-inventory__item::before,
+.neural-panel__control.thesis__attach_something,
 blockquote {
     background: #181b20!important
 }
@@ -817,6 +818,7 @@ pre[style="word-wrap: break-word; white-space: pre-wrap;"] {
 .contacts__item,
 .aside__list-heading,
 .chat-header-info__title,
+.neural-panel,
 input {
     color: #e2e3e5!important
 }
