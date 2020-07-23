@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name         No comments on DTF
+@homepageURL  https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
+@version      1
+@license      WTFPL
+@description  Remove comments sections and counters from DTF.ru
+@author       Ётка
+==/UserStyle== */
+.comments__content,
+.layout--bg.l-pv-30.lm-pv-15.l-mt-15,
+.widget_wrapper.widget_wrapper--type-blue.l-pt-20 {
+    display: none;
+}
+#page_wrapper > div.ui-tabs.ui-tabs--default.ui-border--top.l-mb-15.layout--bg > div > div > a:nth-child(2){
+    display: none;
+}
+.comments_counter{
+    display: none;
+}
+div.content-footer__left > div:nth-child(1){
+    margin-right: 0px !important;
+}
