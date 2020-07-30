@@ -2,7 +2,7 @@
 @name         No social activity on DTF
 @namespace    https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_comments.user.css
 @homepageURL  https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_comments.user.css
-@version      1.0.18
+@version      1.0.19
 @license      WTFPL
 @description  Remove comments, votes, notifications and messaging sections/counters from DTF.ru
 @author       Ётка
@@ -25,7 +25,7 @@
     .vote__button {
         margin-right: 0px !important;
     }
-    .quiz{
+    [class^="quiz"]{
         display: block;
     }
 }
