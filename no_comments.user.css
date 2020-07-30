@@ -2,22 +2,21 @@
 @name         No social activity on DTF
 @namespace    https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
 @homepageURL  https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
-@version      1.0.3
+@version      1.0.19
 @license      WTFPL
 @description  Remove comments, votes and notifications sections and counters from DTF.ru
 @author       Ётка
 ==/UserStyle== */
 @-moz-document domain("dtf.ru") {
-    .layout--bg.l-pv-30.lm-pv-15.l-mt-15,
-    .widget_wrapper.widget_wrapper--type-blue.l-pt-20,
-    #page_wrapper > div.ui-tabs.ui-tabs--default.ui-border--top.l-mb-15.layout--bg > div > div > a:nth-child(2),
     [class^="comment"],
+    [class*="messenger"],
     .l-mt-15,
-    div.main_menu__right-side > div:nth-child(1),
     .head-notifies,
     .vote__value,
     .repost_button,
-    .layout__right-column {
+    .layout__right-column,
+    .ui-tabs__content.l-island-a > a:nth-child(2),
+    .ui-tabs__content.l-island-a > a:nth-child(3){
         display: none;
     }
     div.content-footer__left > div:nth-child(1),
