@@ -15,7 +15,8 @@
     .l-mt-15,
     div.main_menu__right-side > div:nth-child(1),
     .head-notifies,
-    .vote__value {
+    .vote__value,
+    .repost_button {
         display: none;
     }
     div.content-footer__left > div:nth-child(1),
