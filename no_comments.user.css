@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         No social activity on DTF
-@namespace    https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
-@homepageURL  https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
+@namespace    https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_comments.user.css
+@homepageURL  https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_comments.user.css
 @version      1.0.22
 @license      WTFPL
 @description  Remove comments, votes and notifications sections and counters from DTF.ru
@@ -24,5 +24,8 @@
     div.content-footer__left > div:nth-child(1),
     .vote__button {
         margin-right: 0px !important;
+    }
+    .quiz{
+        display: block;
     }
 }
