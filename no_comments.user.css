@@ -13,10 +13,13 @@
     #page_wrapper > div.ui-tabs.ui-tabs--default.ui-border--top.l-mb-15.layout--bg > div > div > a:nth-child(2),
     [class^="comment"],
     .l-mt-15,
+    div.main_menu__right-side > div:nth-child(1),
+    .head-notifies,
     .vote__value {
         display: none;
     }
-    div.content-footer__left > div:nth-child(1) {
+    div.content-footer__left > div:nth-child(1),
+    .vote__button {
         margin-right: 0px !important;
     }
 }
