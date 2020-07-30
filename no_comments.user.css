@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name         No comments on DTF
+@name         No social activity on DTF
 @namespace    https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
 @homepageURL  https://github.com/IWannaBeTheKappa/qwtqwrtqrt/raw/senpai/no_comments.user.css
 @version      1.0.3
 @license      WTFPL
-@description  Remove comments sections and counters from DTF.ru
+@description  Remove comments, votes and notifications sections and counters from DTF.ru
 @author       Ётка
 ==/UserStyle== */
 @-moz-document domain("dtf.ru") {
@@ -12,7 +12,8 @@
     .widget_wrapper.widget_wrapper--type-blue.l-pt-20,
     #page_wrapper > div.ui-tabs.ui-tabs--default.ui-border--top.l-mb-15.layout--bg > div > div > a:nth-child(2),
     [class^="comment"],
-    .l-mt-15 {
+    .l-mt-15,
+    .vote__value {
         display: none;
     }
     div.content-footer__left > div:nth-child(1) {
