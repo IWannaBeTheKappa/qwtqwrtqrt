@@ -17,7 +17,7 @@
     .head-notifies,
     .vote__value,
     .repost_button,
-    ..layout__right-column {
+    .layout__right-column {
         display: none;
     }
     div.content-footer__left > div:nth-child(1),
