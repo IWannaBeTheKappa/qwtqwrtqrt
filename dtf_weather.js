@@ -4,6 +4,7 @@
 // @description  Хых
 // @author       ётка
 // @match        https://dtf.ru/*
+// @updateURL    https://raw.githubusercontent.com/IWannaBeTheKappa/userstyles/senpai/dtf_weather.js
 // @grant        none
 // ==/UserScript==
 
