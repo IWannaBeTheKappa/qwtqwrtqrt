@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name         No social activity on DTF
+@namespace    https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_social_activity.user.css
+@homepageURL  https://github.com/IWannaBeTheKappa/userstyles
+@version      1.0.20
+@license      WTFPL
+@description  Remove comments, votes, notifications and messaging sections/counters from DTF.ru
+@author       Ётка
+==/UserStyle== */
+@-moz-document domain("dtf.ru") {
+	[class^="comment"],
+	[class*="messenger"],
+	.sidebar-tree-list > div:nth-child(2),
+	.sidebar-tree-list > div:nth-child(3),
+	.sidebar-tree-list > div:nth-child(4),
+	.l-mt-15,
+	.head-notifies,
+	.vote__value,
+	.repost_button,
+	.layout__right-column,
+	.favorite_marker__count,
+	.widget_wrappe,
+	.content-header-author--user,
+	.authorCard__karma,
+	.authorCard__description,
+	.plus-badge {
+		display: none;
+	}
+	div.content-footer__left > div:nth-child(1),
+	.vote__button {
+		margin-right: 0px !important;
+	}
+	[class^="quiz"] {
+		display: block;
+	}
+}
