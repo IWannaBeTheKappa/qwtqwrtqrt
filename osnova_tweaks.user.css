@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name           OCHOBA Tweaks
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    Remove useless items from Osnova-based web-sites and some little tweaks.
+@version        1.1.0
+@description    Remove useless(imho) items from Osnova-based web-sites and some little tweaks.
 @updateURL      https://raw.githubusercontent.com/IWannaBeTheKappa/userstyles/senpai/osnova_tweaks.user.css
 @author         ётка
 ==/UserStyle== */
-@-moz-document regexp("https://*.dtf\.ru\/.*|https://*.tjournal\.ru\/.*") {
+@-moz-document domain("dtf.ru"),
+domain("tjournal.ru") {
 	.andropov_image.subscribers_widget__subscriber {
 		border: none;
 	}
@@ -31,7 +32,8 @@
 	.sidebar__spacer.lm-hidden,
 	[class="sidebar__tree-list"],
 	.propaganda,
-	.vc-job-branding-head {
+	.vc-job-branding-head,
+	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered {
 		display: none;
 	}
 
