@@ -1,7 +1,11 @@
 /* ==UserStyle==
 @name           OCHOBA Tweaks
 @namespace      github.com/openstyles/stylus
+<<<<<<< HEAD
 @version        1.1.1
+=======
+@version        1.1.0
+>>>>>>> c32c0537a1a5e4d3bbe2217b8dded36c4fa370f8
 @description    Remove useless(imho) items from Osnova-based web-sites and some little tweaks.
 @updateURL      https://raw.githubusercontent.com/IWannaBeTheKappa/userstyles/senpai/osnova_tweaks.user.css
 @author         ётка
@@ -35,8 +39,12 @@ domain("tjournal.ru") {
 	[class*="vacancies"],
 	.propaganda,
 	.vc-job-branding-head,
+<<<<<<< HEAD
 	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
 	.v-mini-header {
+=======
+	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered {
+>>>>>>> c32c0537a1a5e4d3bbe2217b8dded36c4fa370f8
 		display: none;
 	}
 
