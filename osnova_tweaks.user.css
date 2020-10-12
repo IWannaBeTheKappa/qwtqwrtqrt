@@ -36,7 +36,8 @@ domain("tjournal.ru") {
 	.propaganda,
 	.vc-job-branding-head,
 	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
-	.v-mini-header {
+	.v-mini-header,
+	.shares {
 		display: none;
 	}
 
