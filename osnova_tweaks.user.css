@@ -37,7 +37,8 @@ domain("tjournal.ru") {
 	.vc-job-branding-head,
 	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
 	.v-mini-header,
-	.shares {
+	.shares,
+	[class*=thelastofus] {
 		display: none;
 	}
 
@@ -47,9 +48,5 @@ domain("tjournal.ru") {
 
 	.ui-sorting.ui-sorting--with-tabs {
 		margin-top: -20px;
-	}
-	.subsite-sidebar {
-		position: sticky;
-		top: 90px !important;
 	}
 }
