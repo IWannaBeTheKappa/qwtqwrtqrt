@@ -7,7 +7,7 @@
 @description  Remove comments, votes, notifications and messaging sections/counters from DTF.ru
 @author       Ётка
 ==/UserStyle== */
-@-moz-document domain("dtf.ru") {
+@-moz-document domain("dtf.ru"), domain("tjournal.ru") {
 	[class^="comment"],
 	[class*="messenger"],
 	.sidebar-tree-list > div:nth-child(2),
