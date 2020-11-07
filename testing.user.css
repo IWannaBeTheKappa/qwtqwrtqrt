@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           testing
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+@preprocessor   stylus
+@var 			checkbox	test "test" 0
+==/UserStyle== */
+@-moz-document domain("dtf.ru") {
+	if test {
+		.andropov_image {
+			display: none !important;
+		}
+	}
+}
