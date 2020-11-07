@@ -4,10 +4,10 @@
 @homepageURL  https://github.com/IWannaBeTheKappa/userstyles
 @version      1.0.21
 @license      WTFPL
-@description  Remove comments, votes, notifications and messaging sections/counters from DTF.ru
+@description  Remove comments, votes, notifications and messaging sections/counters from DTF/TJ/VC
 @author       Ётка
 ==/UserStyle== */
-@-moz-document domain("dtf.ru"), domain("tjournal.ru") {
+@-moz-document domain("dtf.ru"), domain("tjournal.ru"), domain("vc.ru")  {
 	[class^="comment"],
 	[class*="messenger"],
 	.sidebar-tree-list > div:nth-child(2),
