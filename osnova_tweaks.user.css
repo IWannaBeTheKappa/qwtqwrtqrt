@@ -8,45 +8,48 @@
 ==/UserStyle== */
 @-moz-document domain("dtf.ru"),
 domain("tjournal.ru") {
-	.andropov_image.subscribers_widget__subscriber {
-		border: none;
-	}
-	[class*="andropov_image"] {
-		background: rgba(255, 255, 255, 0)
-	}
+  .andropov_image.subscribers_widget__subscriber {
+    border: none;
+  }
+  [class*="andropov_image"] {
+    background: rgba(255, 255, 255, 0)
+  }
 
-	.creation_button__main,
-	.l-mr-50.creation_button,
-	.layout__column.layout__column--right.layout__column--sticky,
-	.layout__spacer.layout__spacer--right,
-	.layout__column.layout__column--right,
-	.sidebar__footer.l-ph-20.lm-ph-15,
-	.sidebar__button.l-ph-20.lm-ph-15,
-	.azur-games-button,
-	.live-stream-button,
-	.daily-promo-unit,
-	.daily-promo-unit-label,
-	.intel,
-	.v-create-button,
-	.layout__right-column,
-	.news_widget.l-island-bg.l-island-a.l-island-round.l-mb-15.l-pv-20.lm-pv-18.l-fs-16,
-	.sidebar__spacer.lm-hidden,
-	[class="sidebar__tree-list"],
-	[class*="vacancies"],
-	.propaganda,
-	.vc-job-branding-head,
-	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
-	.v-mini-header,
-	.shares,
-	[class*=thelastofus] {
-		display: none;
-	}
+  .creation_button__main,
+  .l-mr-50.creation_button,
+  .layout__column.layout__column--right.layout__column--sticky,
+  .layout__spacer.layout__spacer--right,
+  .layout__column.layout__column--right,
+  .sidebar__footer.l-ph-20.lm-ph-15,
+  .sidebar__button.l-ph-20.lm-ph-15,
+  .azur-games-button,
+  .live-stream-button,
+  .daily-promo-unit,
+  .daily-promo-unit-label,
+  .intel,
+  .v-create-button,
+  .layout__right-column,
+  .news_widget.l-island-bg.l-island-a.l-island-round.l-mb-15.l-pv-20.lm-pv-18.l-fs-16,
+  .sidebar__spacer.lm-hidden,
+  [class="sidebar__tree-list"],
+  [class*="vacancies"],
+  .propaganda,
+  .vc-job-branding-head,
+  .site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
+  .v-mini-header,
+  .shares,
+  .updown.updown--shown,
+  .content-info--short,
+  .comments_counter__count__unit,
+  [class*=thelastofus] {
+    display: none !important;
+  }
 
-	.sidebar__tree-list[data-v-4087d855] {
-		margin-top: 15px;
-	}
+  .sidebar__tree-list[data-v-4087d855] {
+    margin-top: 15px;
+  }
 
-	.ui-sorting.ui-sorting--with-tabs {
-		margin-top: -20px;
-	}
+  .ui-sorting.ui-sorting--with-tabs {
+    margin-top: -20px;
+  }
 }
