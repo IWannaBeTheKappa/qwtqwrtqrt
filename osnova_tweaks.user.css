@@ -14,6 +14,7 @@ domain("tjournal.ru") {
 	[class*="andropov_image"] {
 		background: rgba(255, 255, 255, 0);
 	}
+
 	.creation_button__main,
 	.l-mr-50.creation_button,
 	.layout__column.layout__column--right.layout__column--sticky,
@@ -41,14 +42,19 @@ domain("tjournal.ru") {
 	.updown.updown--shown,
 	.content-info--short,
 	.comments_counter__count__unit,
-	[class*="thelastofus"],
-	.special-my-games {
+	[class*="thelastofus"] {
 		display: none !important;
 	}
+
 	.sidebar__tree-list[data-v-4087d855] {
 		margin-top: 15px;
 	}
+
 	.ui-sorting.ui-sorting--with-tabs {
 		margin-top: -20px;
+	}
+
+	.subsite-card-entry {
+		border-top: none !important;
 	}
 }
