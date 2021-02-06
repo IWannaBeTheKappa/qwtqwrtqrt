@@ -1,13 +1,15 @@
 /* ==UserStyle==
 @name         No social activity on DTF/TJ/VC
-@namespace    https://github.com/IWannaBeTheKappa/userstyles/raw/senpai/no_social_activity.user.css
-@homepageURL  https://github.com/IWannaBeTheKappa/userstyles
-@version      1.0.21
+@namespace    https://github.com/IWannaBeTheKappa/OCHOBA_Things/raw/senpai/no_social_activity.user.css
+@homepageURL  https://github.com/IWannaBeTheKappa/OCHOBA_Things
+@version      1.0.22
 @license      WTFPL
 @description  Remove comments, votes, notifications and messaging sections/counters from DTF/TJ/VC
-@author       Ётка
+@author       ётка
 ==/UserStyle== */
-@-moz-document domain("dtf.ru"), domain("tjournal.ru"), domain("vc.ru")  {
+@-moz-document domain("dtf.ru"),
+domain("tjournal.ru"),
+domain("vc.ru") {
 	[class^="comment"],
 	[class*="messenger"],
 	.sidebar-tree-list > div:nth-child(2),
@@ -32,5 +34,20 @@
 	}
 	[class^="quiz"] {
 		display: block;
+	}
+}
+@-moz-document domain("tjournal.ru") {
+	.widget_wrapper.widget_wrapper--type-yellow.l-pt-20.l-island-round {
+		display: none;
+	}
+}
+@-moz-document domain("dtf.ru") {
+	.widget_wrapper.widget_wrapper--type-blue.l-pt-20.l-island-round {
+		display: none;
+	}
+}
+@-moz-document domain("vc.ru") {
+	.widget_wrapper.widget_wrapper--type-pink.l-pt-20.l-island-round {
+		display: none;
 	}
 }
