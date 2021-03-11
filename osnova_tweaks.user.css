@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name					 OCHOBA Tweaks
 @namespace			github.com/openstyles/stylus
-@version				1.1.2
-@description		Remove useless(imho) items from Osnova-based web-sites and some little tweaks.
+@version				1.1.3
+@description		Remove useless(imho) items from Osnova-based web-sites and some other little tweaks.
 @updateURL			https://raw.githubusercontent.com/IWannaBeTheKappa/userstyles/senpai/osnova_tweaks.user.css
 @author				 ётка
 ==/UserStyle== */
@@ -11,39 +11,39 @@ domain("tjournal.ru") {
 	.andropov_image.subscribers_widget__subscriber {
 		border: none;
 	}
+
 	[class*="andropov_image"] {
 		background: rgba(255, 255, 255, 0);
 	}
 
+	.comments_counter__count__unit,
+	.content-info--short,
 	.creation_button__main,
-	.l-mr-50.creation_button,
-	.layout__column.layout__column--right.layout__column--sticky,
-	.layout__spacer.layout__spacer--right,
-	.layout__column.layout__column--right,
-	.sidebar__footer.l-ph-20.lm-ph-15,
-	.sidebar__button.l-ph-20.lm-ph-15,
-	.azur-games-button,
-	.live-stream-button,
-	.daily-promo-unit,
-	.daily-promo-unit-label,
 	.intel,
-	.v-create-button,
+	.layout__column.layout__column--right,
+	.layout__column.layout__column--right.layout__column--sticky,
 	.layout__right-column,
+	.layout__spacer.layout__spacer--right,
+	.l-mr-50.creation_button,
 	.news_widget.l-island-bg.l-island-a.l-island-round.l-mb-15.l-pv-20.lm-pv-18.l-fs-16,
+	.propaganda,
+	.shares,
+	.sidebar__button.l-ph-20.lm-ph-15,
+	.sidebar__footer.l-ph-20.lm-ph-15,
 	.sidebar__spacer.lm-hidden,
+	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
+	.updown.updown--shown,
+	.vc-job-branding-head,
+	.v-create-button,
+	.v-mini-header,
+	.v-shares,
 	[class="sidebar__tree-list"],
 	[class*="vacancies"],
 	[class*="vk"],
 	[class*="thelastofus"],
-	.propaganda,
-	.vc-job-branding-head,
-	.site-header__item.site-header__item--spaced.site-header__item--desktop.site-header__item--centered,
-	.v-mini-header,
-	.shares,
-	.v-shares,
-	.updown.updown--shown,
-	.content-info--short,
-	.comments_counter__count__unit,
+	[class*="live-stream"],
+	[class*="daily-promo"],
+	[class*="azur"],
 	[air-module="module.boosterPromo"] {
 		display: none !important;
 	}
@@ -64,12 +64,15 @@ domain("tjournal.ru") {
 		background: #444444;
 		box-shadow: -10px -10px 15px #3d3d3d, 10px 10px 15px #3e3e3e;
 	}
+
 	.ya-profi-quiz-article__title {
 		color: #e1e1e1
 	}
+
 	.ya-profi-quiz-article__wrapper {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(https://leonardo.osnova.io/cfccbadc-568d-56c1-a22c-2545dd3aacda)
 	}
+
 	.ya-profi-quiz-article__button {
 		filter: brightness(0.8);
 	}
